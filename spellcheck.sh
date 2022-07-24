@@ -2,7 +2,7 @@
 # ======================================================================
 # SCRIPT NAME: spellcheck.sh
 #
-# PURPOSE: KuraLabs Bash Scripting Task#2 | This script will read a file and spell check
+# PURPOSE: KuraLabs Bash Scripting Task#2 | This script will read a file & spell check
 # the file. Test out misspelled text files.
 #
 # REVISION HISTORY: N/A
