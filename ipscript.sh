@@ -29,5 +29,4 @@ echo "ssh into $REPLY"
 
 #SSH into the selected IP ADDRESS using a private.pem
 ssh -i private.pem ubuntu@"$REPLY"
-
 exit
