@@ -9,7 +9,7 @@ The tools I used in this project:
 *  AWS Elastic Beanstalk
 
 
-![CICD_pipeline](https://user-images.githubusercontent.com/91057035/188248400-ca98031b-c75d-4531-acbb-9e898208f947.png)
+![CICD_pipeline](https://user-images.githubusercontent.com/91057035/189606629-7af7f76c-2e8e-4fc0-b026-4b68f29544ec.png)
 
 
 
