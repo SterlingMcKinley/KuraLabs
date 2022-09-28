@@ -1,7 +1,7 @@
 Deployment 2
 
 
-In Deployment 2, a CI/CD pipeline will be created (from start to finish) to deploy a Flask application. 
+In Deployment 2, a CI/CD pipeline will be created (from start to finish) to deploy a Flask application.
 
 The tools I used in this project:
 *  GitHub
@@ -9,7 +9,10 @@ The tools I used in this project:
 *  AWS CLI
 *  AWS EC2 instance (Linux – Ubuntu distribution)
 *  AWS Elastic Beanstalk
-*  AWSEB CLI
+*  AWSEB CLI 
+<br>
+
+![Diagram_Deployment2](https://user-images.githubusercontent.com/91057035/192658703-4ed11572-e61e-4ea0-b050-1552f3ca6f38.png)
 
 # **Step 1: Create AWS environment**
 * Create EC2 instance ( security group, ssh key pair & ingress rules)
