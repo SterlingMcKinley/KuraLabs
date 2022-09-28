@@ -102,19 +102,25 @@ SSH into the ec2 instance to verify Jenkins installation
 
 <br>
 
+* Add Jenkins user to sudoers group (allows jenkins user to use sudo command)<br>
+
+`echo "Jenkins ALL=(ALL) NOPASSWD:ALL" | sudo tee /etc/sudoers.d/Jenkins`
+
 * Switch to Jenkins user to configure aws
 
 (To successfully configure aws, the access key ID and access key for EB-user will be required. This step is significant because it allows access to the AWS account.)
 
 `sudo su – Jenkins -s /bin/bash`
 
+`sudo apt install python3-pip -y`
+
 `aws configure`
 
 * Install  AWS EB CLI  on Jenkins server EC2
 
-`pip install awsebcli –upgrade –user`
+`pip install awsebcli --upgrade --user`
 
-`eb –version`
+`eb --version`
 
 # Step2: Connect GitHub to Jenkins Server & Execute Build/Test
 
