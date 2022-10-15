@@ -10,9 +10,11 @@ The goal of Deployment 3:
  * trigger & automate the deployment of a Flask application to open source software (Nginx & Gunicorn) in a different VPC
 
 
-**Please refer to Deployment_3.md [documentation](Deployments/Deployment3/Documentation/Deployment_3.md)** describing the process of this deployment and reactions.
+Please refer to [Deployment_3.md Documentation](https://github.com/SterlingMcKinley/KuraLabs/blob/main/Deployments/Deployment3/Documentation/Deployment_3.md) describing the process of this deployment and reactions.
       
-   * A diagram of the CI/CD pipeline and VPC will be included in the documentation.
+A diagram of the CI/CD pipeline and VPC will be included in the documentation folder. -> [Deployment3_diagram](https://github.com/SterlingMcKinley/KuraLabs/blob/main/Deployments/Deployment3/Documentation/deployment3_diagram.drawio.pdf)
+   
+A diagram of the software stack will be included in the documentation folder. -> [Deployment3_Software_Stack_Diagram](https://github.com/SterlingMcKinley/KuraLabs/blob/main/Deployments/Deployment3/Documentation/Deployment3_Software_Stack_Diagram.png)
 
-The working repository can found here -> [url-shortener](https://github.com/SterlingMcKinley/kuralabs_deployment_3.git) 
+The workspace repository can found here -> [url-shortener](https://github.com/SterlingMcKinley/kuralabs_deployment_3.git) 
 
