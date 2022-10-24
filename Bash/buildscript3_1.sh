@@ -4,16 +4,16 @@
 echo "In an effort to produce files & data. 3 files will be created..."
 echo "file1.txt, file2.txt, file3.txt"
 
-touch p1.txt;chmod 755 file1.txt
+touch file1.txt;chmod 755 file1.txt
 
-echo -e "Full Name []: Linus Torvald  \n Room Number []:  \n Work Phone []: 111-111-1111 \n Home Phone []: 333-333-333 \n Other []: " >> f1.txt
-echo -e "Full Name []: Brian Fox \n  Room Number []:  \n Work Phone []: 222-222-222 \n Home Phone []: 155-956-0177 \n Other []: " >> f1.txt
+echo -e "Full Name []: Linus Torvald  \n Room Number []:  \n Work Phone []: 111-111-1111 \n Home Phone []: 333-333-333 \n Other []: " >> file1.txt
+echo -e "Full Name []: Brian Fox \n  Room Number []:  \n Work Phone []: 222-222-222 \n Home Phone []: 155-956-0177 \n Other []: " >> file1.txt
 
-touch p2.txt;chmod 755 file2.txt
-echo -e "Full Name []: Guido van Rossum \n Room Number []:  \n Work Phone []: 333-333-3333 \n Home Phone []: \n Other []: " >> f2.txt
+touch file2.txt;chmod 755 file2.txt
+echo -e "Full Name []: Guido van Rossum \n Room Number []:  \n Work Phone []: 333-333-3333 \n Home Phone []: \n Other []: " >> file2.txt
 
-touch p3.txt;chmod 755 file3.txt
-echo -e "Full Name []: James Gosling \n Room Number []:  \n Work Phone []: \n Home Phone []: \n Other []: " >> f3.txt
+touch file3.txt;chmod 755 file3.txt
+echo -e "Full Name []: James Gosling \n Room Number []:  \n Work Phone []: \n Home Phone []: \n Other []: " >> file3.txt
 
 sleep 2s
 
