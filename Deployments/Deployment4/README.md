@@ -3,11 +3,13 @@
 The goal of Deployment 4:
 
  * create a CI/CD pipeline from start to finish.
- * leveraging AWS, deploy a customized VPC into the cloud infrastructure & pipeline
- * Configure a Jenkins master & a Jenkins agent in different VPCs
+ * Configure a Jenkins on an EC2 instance in default VPC
+ * Install Terraform on Jenkins server
+ * Create a Multibuild pipeline
+ * Create a VPC with Terraform & deploy a Flask application to it 
  * execute builds/tests in the pipeline
  * add additional validation test
- * trigger & automate the deployment of a Flask application to open source software (Nginx & Gunicorn) in a different VPC
+ * Diagram the pipeline
 
 
 Please refer to [Deployment_4.md Documentation](https://github.com/SterlingMcKinley/KuraLabs/blob/main/Deployments/Deployment4/Documentation/Deployment_4.md) describing the process of this deployment and reactions.
