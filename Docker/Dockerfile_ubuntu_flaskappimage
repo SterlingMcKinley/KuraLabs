@@ -1,4 +1,5 @@
 # Using official ubuntu image as a parent image
+# This image will be pushed to Docker Hub
 FROM ubuntu:latest
 
 # Getting the updates for Ubuntu and installing net tools & python into our environment
@@ -7,15 +8,12 @@ RUN apt update && apt install -y net-tools && \
     apt -y install python3.11 && \
     apt -y install python3-pip && \
     pip install Flask && \
-#Installing Git
-    apt -y install git && \
-#copying app
-    git clone https://github.com/kura-labs-org/kuralabs_deployment_1.git && \
-# Installing dependancies 
-    pip install -r /kuralabs_deployment_1/requirements.txt && rm /kuralabs_deployment_1/README.md && rm /kuralabs_deployment_1/Deployment-1*.pdf
+ 
+#Installing dependancies 
+    pip install -r requirements.txt 
 
 #Changing directories to the application
-WORKDIR /kuralabs_deployment_1
+WORKDIR /app
 
 #exposing port for traffic
 EXPOSE 8000
@@ -25,3 +23,4 @@ ENV FLASK_APP=application
 
 #run the application from the container
 CMD [ "flask", "run", "--host=0.0.0.0" ]
+
