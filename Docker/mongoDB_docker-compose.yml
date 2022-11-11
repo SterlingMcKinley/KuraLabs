@@ -1,0 +1,26 @@
+version: "3.9"
+ 
+services:
+  mongodb:
+    image: "mongo:latest"
+    container_name: "database"
+    restart: "unless-stopped"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: "root1"
+      MONGO_INITDB_ROOT_PASSWORD: "password1"
+    volumes:
+      - ./sharedb:/data/db
+      - ./mongodata:/data/mgdb
+ 
+  mongo-express:
+    image: "mongo-express:latest"
+    container_name: "front-end"
+    environment:
+      ME_CONFIG_MONGODB_ADMINUSERNAME: "root1"
+      ME_CONFIG_MONGODB_ADMINPASSWORD: "password1"
+      ME_CONFIG_MONGODB_SERVER: database
+    ports:
+      - "8081:8081"
+    restart: "unless-stopped"  
+    depends_on:
+      - "mongodb"
