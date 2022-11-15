@@ -54,6 +54,13 @@ The tools I used in this project:
 
 
 ![After](https://user-images.githubusercontent.com/91057035/199321929-7796180e-c89e-428a-ae0b-6e072e04191e.jpg)
+<br>
+
+# **Overview**
+Terraform is a powerful tool! Some benefits of Terraform: 1- cloud agnostic, 2- automates infrastructure, 3- infrastructure can be configured via code (IaC), 4- reduces development cost, & 5- decreases time to provision infrastructure. Deployment 5 was fulfilling. I truly enjoyed being able to spin up infrastructure within minutes. Incorporating Terraform in a CICD pipeline will enable deployment with simple small code changes and lower the probability of human error.
+
+# **Issues**
+In this deployment, I ran into a couple of Terraform issues. I did not call or reference a couple of variables correctly. After updating the declared variable Terraform files deployed with no issues.
 
 
 
