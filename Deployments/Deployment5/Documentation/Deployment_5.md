@@ -78,4 +78,13 @@ The tools I used in this project:
 ![url](https://user-images.githubusercontent.com/91057035/202027694-5d074d3f-6450-43b8-925f-0abdfba915b9.jpg)
 <br>
 
+# **Overview**
+Deployment 5 incorporated a lot of tools, technologies and concepts. Planning the approach I would take to use all tools took some time. I tried different methods locally but chose the method I felt would challenge me. After this deployment, I further understand the important of creating a pipeline, IaC, automating, containerization and cloud computing.
+
+
+# **Issues**
+The issues I faced in Deployment 5
+* Syntax errors within my Jenkinsfile
+* Docker-Compose was not installed
+* I had to create a docker group then add my ec2 ubuntu user to the docker group
 
