@@ -4,7 +4,7 @@ The goal of Deployment 5:
 
  * create a CI/CD pipeline from start to finish.
  * Install & Configure a Jenkins master node on an EC2 instance in default VPC
- * Create 2 Jenkins agents profiles  
+ * Create 2 Jenkins agent profiles  
  * Install Terraform & Docker on separate EC2 instances in a separate VPC
  * Create a Multibuild pipeline
  * Create a Container, Push container to DockerHub & Deploy container to AWS ECS 
