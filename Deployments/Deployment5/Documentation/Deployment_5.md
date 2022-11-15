@@ -14,9 +14,10 @@ The tools I used in this project:
 
 # **Step 1: Create & Configure EC2 instances**
 * Created an Jenkins Server on EC2 instance via AWS CLI
-    * Install & confgure Jenkins (ensure to configure AWS_ACCESS_KEY & AWS_SECRET_KEY)
+    * Install & confgure Jenkins 
     * Install Docker Pipeline Plugin
     * Connect Github repository to Jenkins via personal access token.
+    * Configure AWS_ACCESS_KEY & AWS_SECRET_KEY
     
 * Created a Docker Server & Terraform Server on 2 EC2 instances in two different availability zones within a VPC
     * Copy key file (.pem) to both EC2 instances
