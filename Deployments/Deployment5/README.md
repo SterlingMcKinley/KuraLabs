@@ -13,7 +13,7 @@ The goal of Deployment 5:
 
 Please refer to [Deployment_5.md Documentation](https://github.com/SterlingMcKinley/KuraLabs/blob/main/Deployments/Deployment5/Documentation/Deployment_5.md) describing the process of this deployment and reactions.
       
-A diagram of the CI/CD pipeline and VPC will be included in the documentation folder. -> [Deployment5_diagram](https://github.com/SterlingMcKinley/KuraLabs/blob/main/Deployments/Deployment5/Documentation/deployment5_diagram.drawio.png)
+A diagram of the CI/CD pipeline and VPC will be included in the documentation folder. -> [Deployment5_diagram](https://github.com/SterlingMcKinley/KuraLabs/blob/main/Deployments/Deployment5/Documentation/deployment5_diagram_drawio.png)
    
 The workspace repository can found here -> [url-shortener](https://github.com/SterlingMcKinley/kuralabs_deployment_5.git) 
 
