@@ -4,16 +4,16 @@ Objective: Create an application environment with K3D to deploy an application (
 
 * **Instructions:**
 
-(Prerequisite) 
+(Prerequisite: K3d installed on laptop/terminal) 
 
 1- Using K3d, create a cluster with a loadbalancer with port mapping “8088:8081”
 
      k3d cluster create clusterMongoDB --port 8088:8081@loadbalancer
 
-2- Create a Mongo deployment yaml file with a service
+2- Create a [Mongo deployment yaml file](https://github.com/SterlingMcKinley/KuraLabs/blob/main/Kubernetes/MongoDB_App/mongodb_deployment.yaml) with a service
 
 
-3- Create a secret yaml
+3- Create a [secret yaml file](https://github.com/SterlingMcKinley/KuraLabs/blob/main/Kubernetes/MongoDB_App/secret.yaml)
 
   Execute command below to encode username & password string
   
@@ -31,11 +31,11 @@ Objective: Create an application environment with K3D to deploy an application (
   
         kubectl apply -f mongodb_deployment.yaml
         
-5- Create a config_map file
+5- Create a [config_map yaml file](https://github.com/SterlingMcKinley/KuraLabs/blob/main/Kubernetes/MongoDB_App/config_map.yaml)
       
       kubectl apply -f config_map.yaml
 
-6- Create the mongo-express application & deploy it
+6- Create the [mongo-express application yaml file](https://github.com/SterlingMcKinley/KuraLabs/blob/main/Kubernetes/MongoDB_App/mongo_express_deployment.yaml) & deploy it
 
       kubectl apply -f mongo_express_deployment.yaml
 
